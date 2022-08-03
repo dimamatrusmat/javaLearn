@@ -1,6 +1,5 @@
-import com.sun.source.tree.WhileLoopTree;
-
 import java.io.IOException;
+import java.util.Arrays;
 
 public class App {
 
@@ -100,13 +99,26 @@ public class App {
 //
 //        System.out.println(str1.equalsIgnoreCase(str2)); // эквивалетно
 
-        Cat barsic = new Cat("Myyy", 33);
-
-        barsic.mu();
-
-        System.out.println(barsic.getSay());
-
+//        Cat barsic = new Cat("Myyy", 33);
+//
+//        barsic.mu();
+//
+//        System.out.println(barsic.getSay());
+//
 
 
     }
+
+    public static void solution(String str, String ending) {
+
+        int end = str.length();
+        String str1 = str.substring(end-1, end);
+        System.out.println(str1);
+
+        int nums[] = new int[5];
+
+        Arrays.stream(nums).count();
+
+    }
+
 }

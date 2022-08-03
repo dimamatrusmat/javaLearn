@@ -60,6 +60,24 @@ public class Start {
 //
 //
 
+//    public static void main (String[] args) {
+//        Boy boy = new Boy ();
+//        boy.play();
+//
+//        Girl girl = new Girl();
+//        girl.play();
+//
+//        Player unit = girl;
+//
+//
+//    }
 
+    public static void main(String[] args) {
+        Person gi = new Person();
 
+        gi.say();
+
+        Monkey ner = new Monkey();
+        ner.say();
+    }
 }

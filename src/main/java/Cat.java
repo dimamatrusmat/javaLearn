@@ -5,6 +5,10 @@ public class Cat extends Animal{
         setTeeth(teeth);
     }
 
+    public String getSay() {
+        String say = super.getSay();
+        return say + " New !";
+    }
     void mu () {
         System.out.println(getSay() + " во все " + getTeeth() + " зуба");
     }
